@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BA679A2C95C2C4002E1029 /* GeometryReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA67992C95C2C4002E1029 /* GeometryReaderApp.swift */; };
+		95BA679C2C95C2C4002E1029 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA679B2C95C2C4002E1029 /* GeometryReaderView.swift */; };
+		95BA679E2C95C2C8002E1029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BA679D2C95C2C8002E1029 /* Assets.xcassets */; };
+		95BA67A12C95C2C8002E1029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BA67A02C95C2C8002E1029 /* Preview Assets.xcassets */; };
+		95BA67AB2C95C2C9002E1029 /* GeometryReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA67AA2C95C2C9002E1029 /* GeometryReaderTests.swift */; };
+		95BA67B52C95C2C9002E1029 /* GeometryReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA67B42C95C2C9002E1029 /* GeometryReaderUITests.swift */; };
+		95BA67B72C95C2C9002E1029 /* GeometryReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA67B62C95C2C9002E1029 /* GeometryReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95BA67A72C95C2C9002E1029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BA678E2C95C2C4002E1029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BA67952C95C2C4002E1029;
+			remoteInfo = GeometryReader;
+		};
+		95BA67B12C95C2C9002E1029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BA678E2C95C2C4002E1029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BA67952C95C2C4002E1029;
+			remoteInfo = GeometryReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95BA67962C95C2C4002E1029 /* GeometryReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BA67992C95C2C4002E1029 /* GeometryReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderApp.swift; sourceTree = "<group>"; };
+		95BA679B2C95C2C4002E1029 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		95BA679D2C95C2C8002E1029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95BA67A02C95C2C8002E1029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95BA67A62C95C2C9002E1029 /* GeometryReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BA67AA2C95C2C9002E1029 /* GeometryReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderTests.swift; sourceTree = "<group>"; };
+		95BA67B02C95C2C9002E1029 /* GeometryReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BA67B42C95C2C9002E1029 /* GeometryReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderUITests.swift; sourceTree = "<group>"; };
+		95BA67B62C95C2C9002E1029 /* GeometryReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BA67932C95C2C4002E1029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67A32C95C2C9002E1029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67AD2C95C2C9002E1029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BA678D2C95C2C4002E1029 = {
+			isa = PBXGroup;
+			children = (
+				95BA67982C95C2C4002E1029 /* GeometryReader */,
+				95BA67A92C95C2C9002E1029 /* GeometryReaderTests */,
+				95BA67B32C95C2C9002E1029 /* GeometryReaderUITests */,
+				95BA67972C95C2C4002E1029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BA67972C95C2C4002E1029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BA67962C95C2C4002E1029 /* GeometryReader.app */,
+				95BA67A62C95C2C9002E1029 /* GeometryReaderTests.xctest */,
+				95BA67B02C95C2C9002E1029 /* GeometryReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BA67982C95C2C4002E1029 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				95BA67992C95C2C4002E1029 /* GeometryReaderApp.swift */,
+				95BA679B2C95C2C4002E1029 /* GeometryReaderView.swift */,
+				95BA679D2C95C2C8002E1029 /* Assets.xcassets */,
+				95BA679F2C95C2C8002E1029 /* Preview Content */,
+			);
+			path = GeometryReader;
+			sourceTree = "<group>";
+		};
+		95BA679F2C95C2C8002E1029 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95BA67A02C95C2C8002E1029 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95BA67A92C95C2C9002E1029 /* GeometryReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				95BA67AA2C95C2C9002E1029 /* GeometryReaderTests.swift */,
+			);
+			path = GeometryReaderTests;
+			sourceTree = "<group>";
+		};
+		95BA67B32C95C2C9002E1029 /* GeometryReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95BA67B42C95C2C9002E1029 /* GeometryReaderUITests.swift */,
+				95BA67B62C95C2C9002E1029 /* GeometryReaderUITestsLaunchTests.swift */,
+			);
+			path = GeometryReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BA67952C95C2C4002E1029 /* GeometryReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BA67BA2C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReader" */;
+			buildPhases = (
+				95BA67922C95C2C4002E1029 /* Sources */,
+				95BA67932C95C2C4002E1029 /* Frameworks */,
+				95BA67942C95C2C4002E1029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryReader;
+			productName = GeometryReader;
+			productReference = 95BA67962C95C2C4002E1029 /* GeometryReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95BA67A52C95C2C9002E1029 /* GeometryReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BA67BD2C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReaderTests" */;
+			buildPhases = (
+				95BA67A22C95C2C9002E1029 /* Sources */,
+				95BA67A32C95C2C9002E1029 /* Frameworks */,
+				95BA67A42C95C2C9002E1029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BA67A82C95C2C9002E1029 /* PBXTargetDependency */,
+			);
+			name = GeometryReaderTests;
+			productName = GeometryReaderTests;
+			productReference = 95BA67A62C95C2C9002E1029 /* GeometryReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95BA67AF2C95C2C9002E1029 /* GeometryReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BA67C02C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReaderUITests" */;
+			buildPhases = (
+				95BA67AC2C95C2C9002E1029 /* Sources */,
+				95BA67AD2C95C2C9002E1029 /* Frameworks */,
+				95BA67AE2C95C2C9002E1029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BA67B22C95C2C9002E1029 /* PBXTargetDependency */,
+			);
+			name = GeometryReaderUITests;
+			productName = GeometryReaderUITests;
+			productReference = 95BA67B02C95C2C9002E1029 /* GeometryReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BA678E2C95C2C4002E1029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					95BA67952C95C2C4002E1029 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					95BA67A52C95C2C9002E1029 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95BA67952C95C2C4002E1029;
+					};
+					95BA67AF2C95C2C9002E1029 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95BA67952C95C2C4002E1029;
+					};
+				};
+			};
+			buildConfigurationList = 95BA67912C95C2C4002E1029 /* Build configuration list for PBXProject "GeometryReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95BA678D2C95C2C4002E1029;
+			productRefGroup = 95BA67972C95C2C4002E1029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BA67952C95C2C4002E1029 /* GeometryReader */,
+				95BA67A52C95C2C9002E1029 /* GeometryReaderTests */,
+				95BA67AF2C95C2C9002E1029 /* GeometryReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95BA67942C95C2C4002E1029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BA67A12C95C2C8002E1029 /* Preview Assets.xcassets in Resources */,
+				95BA679E2C95C2C8002E1029 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67A42C95C2C9002E1029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67AE2C95C2C9002E1029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BA67922C95C2C4002E1029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BA679C2C95C2C4002E1029 /* GeometryReaderView.swift in Sources */,
+				95BA679A2C95C2C4002E1029 /* GeometryReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67A22C95C2C9002E1029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BA67AB2C95C2C9002E1029 /* GeometryReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BA67AC2C95C2C9002E1029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BA67B52C95C2C9002E1029 /* GeometryReaderUITests.swift in Sources */,
+				95BA67B72C95C2C9002E1029 /* GeometryReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BA67A82C95C2C9002E1029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BA67952C95C2C4002E1029 /* GeometryReader */;
+			targetProxy = 95BA67A72C95C2C9002E1029 /* PBXContainerItemProxy */;
+		};
+		95BA67B22C95C2C9002E1029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BA67952C95C2C4002E1029 /* GeometryReader */;
+			targetProxy = 95BA67B12C95C2C9002E1029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95BA67B82C95C2C9002E1029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95BA67B92C95C2C9002E1029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BA67BB2C95C2C9002E1029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometryReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95BA67BC2C95C2C9002E1029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometryReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95BA67BE2C95C2C9002E1029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometryReader";
+			};
+			name = Debug;
+		};
+		95BA67BF2C95C2C9002E1029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometryReader";
+			};
+			name = Release;
+		};
+		95BA67C12C95C2C9002E1029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryReader;
+			};
+			name = Debug;
+		};
+		95BA67C22C95C2C9002E1029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.GeometryReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BA67912C95C2C4002E1029 /* Build configuration list for PBXProject "GeometryReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BA67B82C95C2C9002E1029 /* Debug */,
+				95BA67B92C95C2C9002E1029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BA67BA2C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BA67BB2C95C2C9002E1029 /* Debug */,
+				95BA67BC2C95C2C9002E1029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BA67BD2C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BA67BE2C95C2C9002E1029 /* Debug */,
+				95BA67BF2C95C2C9002E1029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BA67C02C95C2C9002E1029 /* Build configuration list for PBXNativeTarget "GeometryReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BA67C12C95C2C9002E1029 /* Debug */,
+				95BA67C22C95C2C9002E1029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BA678E2C95C2C4002E1029 /* Project object */;
+}
