@@ -7,3 +7,17 @@ GeometryReader -> connected to -> layout of view frames to adjusted view as per 
 ![GeometryReaderForms 002](https://github.com/user-attachments/assets/f3d6f583-6d81-4f5a-85cb-339e30cf8eb3)
 
 ![GeometryReaderForms 003](https://github.com/user-attachments/assets/94a96ac0-0136-4c7c-9c33-42015d946346)
+
+For better understanding, just use below link to find more information.
+
+Linkedin Profile: https://www.linkedin.com/in/sumit-chahar-2956a513b/
+
+YouTubelink: https://www.youtube.com/watch?v=x0lZA0nwHkM
+
+Github SourceCodeLink: https://github.com/sumitchahar/GeometryReader-Swift-UI
+
+
+
+
+
+
