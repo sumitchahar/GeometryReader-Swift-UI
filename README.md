@@ -14,7 +14,8 @@ Linkedin Profile: https://www.linkedin.com/in/sumit-chahar-2956a513b/
 
 YouTubelink: https://www.youtube.com/watch?v=x0lZA0nwHkM
 
-Github SourceCodeLink: https://github.com/sumitchahar/GeometryReader-Swift-UI
+Medium link: https://medium.com/@sumitchahar96/geometryreader-frame-coordinates-swift-ui-d03b734167ee
+
 
 
 
